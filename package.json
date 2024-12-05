@@ -3,8 +3,9 @@
   "displayName": "Xplode 'n' Copy",
   "description": "Easy management of custom changes to exploded artifacts.",
   "version": "0.0.1",
+  "publisher": "Martin Gasse",
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.94.0"
   },
   "categories": [
     "Other"
@@ -36,6 +37,11 @@
           "type": "string",
           "default": "build",
           "description": "Root path from which this extension will copy files."
+        },
+        "target.path": {
+          "type": "string",
+          "default": "custom",
+          "description": "Path to be used as the target folder."
         }
       }
   }
