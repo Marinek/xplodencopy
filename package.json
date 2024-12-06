@@ -3,9 +3,9 @@
   "displayName": "Xplode 'n' Copy",
   "description": "Easy management of custom changes to exploded artifacts.",
   "version": "0.0.1",
-  "publisher": "Martin Gasse",
+  "publisher": "Marinek",
   "engines": {
-    "vscode": "^1.94.0"
+    "vscode": "^1.95.0"
   },
   "categories": [
     "Other"

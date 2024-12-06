@@ -1,71 +1,44 @@
-# xplodencopy README
+# Xplode 'n' Copy
 
-This is the README for your extension "xplodencopy". After writing up a brief description, we recommend including the following sections.
+Xplode 'n' Copy: Seamless File Management for Exploded Artifacts
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+* Dynamic Context Menu Integration
+  The context menu dynamically adapts to show options only for files in pre-configured paths.
 
-For example if there is an image subfolder under your extension project workspace:
+* Custom Path Mapping
+  Replace specific path prefixes (e.g., build → custom) and copy files to the new structure while preserving the directory hierarchy.
 
-\!\[feature X\]\(images/feature-x.png\)
+* Flexible Configuration
+  Configure source and target paths easily through extension settings.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+* Workspace Awareness
+  Automatically adjusts file operations based on the active workspace context.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+You will need a current version of VS Code 1.95.x or newer.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+You can customize the behavior of **Xplode 'n' Copy** through the following settings in your `settings.json` file:
 
-For example:
 
-This extension contributes the following settings:
+| **Setting**                        | **Type**   | **Default** | **Description**                                    |
+|------------------------------------|------------|-------------|----------------------------------------------------|
+| `xplodencopy.source.pathPrefix`    | `string`   | `"build"`   | Root path from which this extension will copy files. |
+| `xplodencopy.target.path`          | `string`   | `"custom"`  | Path to be used as the target folder.               |
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+This is an early alpha version... There will be issues.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+First relase ;)
 
 **Enjoy!**
